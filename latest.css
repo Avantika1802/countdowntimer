@@ -1,0 +1,116 @@
+body {
+    font-family:  sans-serif;
+    background-color:rgb(203, 164, 237);  
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    width: 600px;
+    position: relative;
+    left: 400px;
+    top: 40px;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: rgba(1, 1, 1, 0.555);
+    box-shadow: 0px 2px 4px rgba(1, 1, 1, 0.896);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 60px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group span {
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:rgb(207, 192, 28);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(128, 55, 0);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup p {
+    margin-bottom: 20px;
+}
+body{
+    background-image: url(au.JPG);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.598);
+    
+}

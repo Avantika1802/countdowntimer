@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="latest.css">
+    <title>COUNTDOWN TIMER</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color:white;">COUNTDOWN TIMER</h1>
+        <div class="timer-container">
+            <div class="input-group">
+                <input type="number" id="hours" placeholder=" H H">
+                <span>:</span>
+                <input type="number" id="minutes" placeholder=" M M">
+                <span>:</span>
+                <input type="number" id="seconds" placeholder=" S S">
+            </div>
+            <div id="timer" class="timer" style="color:white;" >00:00:00</div>
+            <div class="button-group">
+                <button onclick="startTimer()">Start</button>
+                <button onclick="pauseTimer()">Pause</button>
+                <button onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Countdown Timer Ended!</h2>
+            <p>Time's up!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <audio id="timerSound" src="ava.wav"></audio>
+    <script src="latest.js"></script>
+</body>
+</html>
